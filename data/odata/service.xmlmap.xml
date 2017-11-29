@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<SXLEMAP version="1.2">
+	<TABLE name="collections">
+		<TABLE-PATH syntax="XPATH">
+		/service/workspace/collection
+		</TABLE-PATH>
+		
+		<COLUMN name="href">
+			<PATH>/service/workspace/collection@href</PATH>
+			<TYPE>character</TYPE>
+			<DATATYPE>STRING</DATATYPE>
+			<LENGTH>128</LENGTH>
+		</COLUMN>
+		
+		<COLUMN name="title">
+			<PATH>/service/workspace/collection/atom:title</PATH>
+			<TYPE>character</TYPE>
+			<DATATYPE>STRING</DATATYPE>
+			<LENGTH>128</LENGTH>
+		</COLUMN>
+	</TABLE>
+</SXLEMAP>

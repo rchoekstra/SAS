@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<SXLEMAP version="1.2">
+
+	
+	<TABLE name="metadata">
+		<TABLE-PATH syntax="XPATH">
+		/edmx:Edmx/edmx:DataServices/Schema/EntityType/Property
+		</TABLE-PATH>
+		
+	
+			<COLUMN name="EntityName" RETAIN="yes">
+					<PATH>/edmx:Edmx/edmx:DataServices/Schema/EntityType@Name</PATH>
+					<TYPE>character</TYPE>
+					<DATATYPE>STRING</DATATYPE>
+					<LENGTH>128</LENGTH>>
+		  </COLUMN>
+			<COLUMN name="PropertyName">
+					<PATH>/edmx:Edmx/edmx:DataServices/Schema/EntityType/Property@Name</PATH>
+					<TYPE>character</TYPE>
+					<DATATYPE>STRING</DATATYPE>
+					<LENGTH>128</LENGTH>>
+		  </COLUMN>
+			<COLUMN name="PropertyType">
+					<PATH>/edmx:Edmx/edmx:DataServices/Schema/EntityType/Property@Type</PATH>
+					<TYPE>character</TYPE>
+					<DATATYPE>STRING</DATATYPE>
+					<LENGTH>128</LENGTH>>
+		  </COLUMN>
+			<COLUMN name="PropertyNullable">
+					<PATH>/edmx:Edmx/edmx:DataServices/Schema/EntityType/Property@Nullable</PATH>
+					<TYPE>character</TYPE>
+					<DATATYPE>STRING</DATATYPE>
+					<LENGTH>128</LENGTH>>
+		  </COLUMN>
+	
+	</TABLE>
+</SXLEMAP>
